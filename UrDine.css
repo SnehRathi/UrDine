@@ -1,0 +1,171 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .background {
+        background-color: rgba(0, 0, 0, 0.87);
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+    }
+
+    .container {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .header {
+        margin-top: 0vh;
+        height: 15vh;
+        width: 100vw;
+        background-color: green;
+        display: flex;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .header nav {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+    .header .commands {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header .name {
+        position: relative;
+        left: 5vw;
+        font-size: 2vw;
+        color: whitesmoke;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Sedgwick Ave Display', cursive;
+        font-size: 3vw;
+    }
+
+    .header .logo {
+        position: relative;
+        left: 6vw;
+        height: 4vh;
+        width: 3vw;
+    }
+
+    .header .commands .nav_items {
+        position: relative;
+        left: 20vw;
+        font-size: 1.45vw;
+        list-style-type: none;
+        font-family: 'Roboto', sans-serif;
+        padding: 1vw;
+        color: white;
+    }
+
+    .header .phone {
+        position: relative;
+        left: 21vw;
+        font-size: 1.45vw;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Sedgwick Ave Display', cursive;
+    }
+
+    .header .commands .nav_items:hover,
+    .container .header .phone:hover {
+        color: black;
+
+    }
+
+    .search_bar {
+        position: relative;
+        left: 33vw;
+        width: 18vw;
+        height: 5vh;
+        background-color: transparent;
+        opacity: .9;
+        border-radius: 2vw;
+        display: flex;
+    }
+
+    #search {
+        width: 100%;
+        height: 100%;
+        border-radius: 2.5vw;
+        outline: none;
+        color: black;
+        padding: 0 3vw;
+        font-family: cursive;
+        background-color: white;
+    }
+
+    button.submit {
+        position: relative;
+        left: 2.4vw;
+        top: .45vh;
+        width: 3vw;
+        height: 5vh;
+        background-size: cover;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        border-radius: 100vw;
+    }
+
+    button.submit img {
+        position: relative;
+        width: 1.8vw;
+        height: 3.6vh;
+        background-size: cover;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        border-radius: 100vw;
+    }
+
+    button.reset {
+        position: relative;
+        right: 2vw;
+        top: .35vh;
+        width: 2.5vw;
+        height: 5vh;
+        background-size: cover;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+
+    button.reset img {
+        position: relative;
+        width: 1.5vw;
+        height: 3vh;
+        background-size: cover;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        cursor: pointer;
+    }
+
+    .brand {
+        position: relative;
+        color: green;
+        top: 8%;
+        text-align: center;
+    }
+
+    h2.slogan {
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Sedgwick Ave Display', cursive;
+        font-size: 50px;
+        text-shadow: 2px 2px white;
+    }
